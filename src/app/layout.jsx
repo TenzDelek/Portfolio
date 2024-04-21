@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className=" w-[720px] m-auto bg-[#404040] px-2  flex flex-col justify-between">
+        <div className="lg:w-[720px] md:w-[520px] w-[380px] m-auto  px-2  flex flex-col justify-between">
         <Navbar/>
         {children}
         <Footer/>

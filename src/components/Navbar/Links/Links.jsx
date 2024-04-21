@@ -4,10 +4,10 @@ import React from 'react'
 const Links = () => {
     const lists= [
         {
-            title: "Home"
+            title: "About"
         },
         {
-            title: "Project"
+            title: "Projects"
         },
         {
             title: "Others"

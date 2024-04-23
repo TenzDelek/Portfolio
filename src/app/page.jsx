@@ -1,5 +1,6 @@
 import Biocard from "@/components/Card/Biocard";
 import About from "@/components/Pages/About/About";
+import Projects from "@/components/Pages/Projects/Projects";
 
 export default function Home() {
   return (
@@ -17,6 +18,10 @@ export default function Home() {
       <About/>
       </div>
      
+     <div className=" p-2 w-full">
+      <Projects domains="Development"/>
+      <Projects domains="Design"/>
+     </div>
     </div>
     
   );

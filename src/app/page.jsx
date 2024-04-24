@@ -5,6 +5,7 @@ import About from "@/components/Pages/About/About";
 import Blog from "@/components/Pages/Blog/Blog";
 import Projects from "@/components/Pages/Projects/Projects";
 import Lenis from 'lenis'
+import Image from "next/image";
 import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
@@ -30,6 +31,9 @@ export default function Home() {
       </div>
       <div className=" w-full mt-10 p-2" >
       <About/>
+      <div className=" relative h-20 w-40">
+        <Image src="/sign.png" fill draggable={false} />
+      </div>
       </div>
      
      <div className=" p-2 w-full" >

@@ -25,7 +25,7 @@ const Footer = () => {
     <>
       <div className=" flex justify-between items-center h-64">
         <div className=" relative h-36  w-24">
-          <Image src="/logobig.png" fill />
+          <Image src="/logobig.png" fill draggable="false" />
         </div>
         <div>
           <div className=" items-end flex flex-col space-y-2">

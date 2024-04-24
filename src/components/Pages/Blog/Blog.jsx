@@ -3,7 +3,7 @@ import React from "react";
 
 const staticinfo = [
   {
-    title: " What I learn from playing Clash of Clan for 6 years",
+    title: " What I learn from playing Clash of Clan for 6 years as a Developer",
     sub: " This is a lesson from my experience from playing clash of clan for almost 6 years and how it helped me in my development journey",
     links: "/",
   },

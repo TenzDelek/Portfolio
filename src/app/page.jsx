@@ -1,5 +1,7 @@
 import Biocard from "@/components/Card/Biocard";
+import Tech from "@/components/Card/Tech";
 import About from "@/components/Pages/About/About";
+import Blog from "@/components/Pages/Blog/Blog";
 import Projects from "@/components/Pages/Projects/Projects";
 
 export default function Home() {
@@ -21,6 +23,12 @@ export default function Home() {
      <div className=" p-2 w-full">
       <Projects domains="Development"/>
       <Projects domains="Design"/>
+     </div>
+     <div>
+      <Tech/>
+     </div>
+     <div className=" w-full mt-10 p-2" >
+      <Blog/>
      </div>
     </div>
     

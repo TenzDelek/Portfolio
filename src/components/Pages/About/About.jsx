@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" text-left  font-bold">
+    <div className=" text-leftfont-bold">
       HELLO VISITORS,
       <p className="mt-4 font-medium md:text-base text-sm md:leading-8 leading-7 ">
         My Name is Tenzin Delek, A <TextCard name="Tibetan" />Living in India. have a great

@@ -6,7 +6,7 @@ import desdatas from '@/data/Design.json'
 const Projects = ({domains}) => {
   const data= domains ==="Development"?devdatas:desdatas
   return (
-    <div className=' flex flex-col'>
+    <div className=' mt-4 flex flex-col'>
     <div className=' flex items-center'>
         <p className=' font-semibold text-lg mr-2 '> Projects</p> 
         <TextCard name={domains} />

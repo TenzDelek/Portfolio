@@ -1,10 +1,26 @@
+'use client'
 import Biocard from "@/components/Card/Biocard";
 import Tech from "@/components/Card/Tech";
 import About from "@/components/Pages/About/About";
 import Blog from "@/components/Pages/Blog/Blog";
 import Projects from "@/components/Pages/Projects/Projects";
-
+import Lenis from 'lenis'
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    lenis.on("scroll", (e) => {
+      
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
   return (
     <div className="flex flex-col items-center mt-12">
       <p className=" font-semibold lg:text-5xl md:text-4xl text-3xl">Tenzin Delek</p>
@@ -16,11 +32,11 @@ export default function Home() {
         ></div>
         <Biocard/>
       </div>
-      <div className=" w-full mt-10 p-2">
+      <div className=" w-full mt-10 p-2" >
       <About/>
       </div>
      
-     <div className=" p-2 w-full">
+     <div className=" p-2 w-full" >
       <Projects domains="Development"/>
       <Projects domains="Design"/>
      </div>

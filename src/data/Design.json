@@ -1,31 +1,38 @@
+
 [
     {
         "title":"Blender Projects",
         "type":"3D Design",
+        "imgs":"/bl.png",
         "date":"2024"
     },
     {
         "title":"Spotify ReDesign",
         "type":"UI/UX Design",
+        "imgs":"/spor.png",
         "date":"2024"
     },
     {
         "title":"Apple CaseStudy",
         "type":"UX Research",
+        "imgs":"/ap.png",
         "date":"2024"
     },
     {
         "title":"PhotoShop Compile",
         "type":"Graphic Design",
+        "imgs":"/ps.png",
         "date":"2023"
     },
     {
         "title":"VIT ReDesign",
         "type":"UI/UX Design",
+        "imgs":"/vit.png",
         "date":"2023"
     },
     {
         "title":"Logo Design",
+        "imgs":"/logor.png",
         "type":"Logo",
         "date":"2023"
     }

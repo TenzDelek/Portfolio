@@ -6,8 +6,8 @@ const Biocard = () => {
   return (
     <div className='  bg-[#292929] flex w-full h-full rounded-xl'>
         <div className=' flex-1  md:flex lg:items-center max-lg:mt-7 hidden justify-center '>
-            <div className='relative  lg:h-[180px] lg:w-[160px] md:h-[150px] md:w-[140px]'>
-            <Image draggable="false"  className='rounded-xl ' src="/profile.png" fill/>
+            <div className='relative lg:h-[180px] lg:w-[160px] md:h-[160px]  md:w-[140px]'>
+            <Image draggable="false"  className='rounded-xl' src="/prof.jpg" fill/>
             </div>
            
         </div>

@@ -5,6 +5,11 @@
         "date":"2024"
     },
     {
+        "title":"SumIT",
+        "type":"Frontend Development | OCR",
+        "date":"2023"
+    },
+    {
         "title":"FindMyPrompt",
         "type":"FullStack Development",
         "date":"2023"
@@ -14,11 +19,7 @@
         "type":"FullStack Development",
         "date":"2024"
     },
-    {
-        "title":"Reciept Generator: OCR",
-        "type":"Frontend Development",
-        "date":"2023"
-    },
+  
     {
         "title":"Vtop Clone",
         "type":"Frontend Development",

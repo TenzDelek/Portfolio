@@ -4,14 +4,12 @@ import Tech from "@/components/Card/Tech";
 import About from "@/components/Pages/About/About";
 import Blog from "@/components/Pages/Blog/Blog";
 import Projects from "@/components/Pages/Projects/Projects";
-import Lenis from 'lenis'
+import Lenis from '@studio-freight/lenis'
 import Image from "next/image";
 import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
     const lenis = new Lenis();
-    lenis.on("scroll", (e) => {
-    });
     function raf(time) {
       lenis.raf(time);
       requestAnimationFrame(raf);

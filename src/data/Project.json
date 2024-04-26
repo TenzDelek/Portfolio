@@ -2,33 +2,39 @@
     {
         "title":"VITgram",
         "type":"FullStack Development",
+        "imgs":"/vitgram.png",
         "date":"2024"
     },
     {
         "title":"SumIT",
         "type":"Frontend Development | OCR",
+        "imgs":"/ocri.png",
         "date":"2023"
     },
     {
         "title":"FindMyPrompt",
         "type":"FullStack Development",
+        "imgs":"/pro.png",
         "date":"2023"
     },
     {
         "title":"DearDiary",
         "type":"FullStack Development",
+        "imgs":"/dar.png",
         "date":"2024"
     },
   
     {
         "title":"Vtop Clone",
         "type":"Frontend Development",
+        "imgs":"/vcc.png",
         "date":"2023"
     },
    
     {
         "title":"Anime Web Portal",
         "type":"Frontend Development",
+        "imgs":"/an.png",
         "date":"2023"
     }
    

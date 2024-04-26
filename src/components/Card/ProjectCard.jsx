@@ -5,7 +5,7 @@ const ProjectCard = ({ date, type, title, imgs }) => {
   return (
     <div className=" p-2 w-full md:hover:bg-[#1A1A1A] hover:bg-[#292929] transition">
       <div
-        className={`relative hidden md:flex  bg-[#292929] h-44 rounded-sm w-56 `}
+        className={`relative hidden md:flex h-44 rounded-sm w-56 `}
       >
         {/* for image */}
         <Image src={imgs} fill />

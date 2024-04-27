@@ -15,7 +15,6 @@ const Each = ({ params }) => {
           <div className="relative h-56">
             <div className="absolute inset-0 overflow-hidden">
               <Image
-                
                 alt="images for the cover"
                 src={selectedItem.imgs}
                 fill

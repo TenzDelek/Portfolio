@@ -33,8 +33,8 @@ const Blog = () => {
   return (
     <div className=" text-leftfont-bold">
       Blogs
-      {staticinfo.map((item) => (
-        <div key={item.title}>
+      {staticinfo.map((item, index) => (
+        <div key={index}>
           <p className="mt-4 hover:text-[#999999] transition font-semibold md:text-base text-sm md:leading-6 leading-4 ">
           <a target="_blank" href={item.links}  rel="noopener noreferrer">  {item.title} </a></p>
             <p className=" text-[#999999] font-medium text-xs">{item.sub}</p>

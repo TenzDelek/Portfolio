@@ -12,8 +12,8 @@ const Projects = ({domains}) => {
         <TextCard name={domains} />
     </div>
     <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
-        {data.map((item)=>
-        <div className='' key={item.title}>
+        {data.map((item, index)=>
+        <div  key={index}>
              <ProjectCard slugs={item.slug} title={item.title} date={item.date} type={item.type} imgs={item.imgs}/>
         </div>
          

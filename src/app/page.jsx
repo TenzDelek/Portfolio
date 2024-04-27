@@ -29,7 +29,7 @@ export default function Home() {
       <div className=" w-full mt-10 p-2" id="About" >
       <About/>
       <div className=" relative h-20 w-40">
-        <Image src="/sign.png" fill draggable={false} />
+        <Image src="/sign.png" alt="sign" fill draggable={false} />
       </div>
       </div>
      

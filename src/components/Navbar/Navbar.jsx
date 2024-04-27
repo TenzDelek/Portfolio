@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className=" relative w-16 h-10 cursor-pointer ">
           <Link href="/">
             {" "}
-            <Image src="/logo.png" fill />
+            <Image src="/logo.png" alt="nav image" fill />
           </Link>
         </div>
         <div className="hidden md:flex">

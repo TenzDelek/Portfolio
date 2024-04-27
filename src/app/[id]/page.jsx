@@ -25,7 +25,7 @@ const Each = ({ params }) => {
             </div>
           </div>
           <div className="  md:h-20 md:w-20 h-14 w-14 rounded-xl absolute md:top-48 top-52 md:left-5 left-2">
-            <Image src={selectedItem.logo} fill />
+            <Image src={selectedItem.logo} alt="logo" fill />
           </div>
           <div className=" flex gap-4  justify-between items-center md:pl-28 pl-20 mt-2">
             <p className=" md:text-lg md:font-semibold text-sm font-semibold">

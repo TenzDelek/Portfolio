@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-
+import profile from '../../..//public/prof.jpg'
 const Biocard = () => {
     const nums=[2,4,1,0,2,0,0,2,'-',6,5]
   return (
     <div className='  bg-[#292929] flex w-full h-full rounded-xl'>
         <div className=' flex-1  md:flex lg:items-center max-lg:mt-7 hidden justify-center '>
             <div className='relative lg:h-[180px] lg:w-[160px] md:h-[160px]  md:w-[140px]'>
-            <Image draggable="false"  className='rounded-xl' src="/prof.jpg" fill/>
+            <Image draggable="false"  className='rounded-xl' src={profile} placeholder='blur' fill/>
             </div>
            
         </div>

@@ -15,6 +15,8 @@ const Each = ({ params }) => {
           <div className="relative h-56">
             <div className="absolute inset-0 overflow-hidden">
               <Image
+                
+                alt="images for the cover"
                 src={selectedItem.imgs}
                 fill
                 objectFit="cover"
@@ -86,7 +88,7 @@ const Each = ({ params }) => {
         //if the slug are not found
         <div className=" flex flex-col items-center h-48 justify-center text-5xl font-bold">
          DESIGN PAGE IS UNDER CONSTRUCTION
-          <p className=" text-sm font-normal">
+          <p className=" text-xs font-normal">
             WILL BE LIVE AFTER JULY,2024
           </p>
         </div>

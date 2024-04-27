@@ -23,24 +23,24 @@
     {
         "slug":"p2",
         "title":"SumIT",
-        "type":"Frontend Development | OCR",
+        "type":"Frontend Development|OCR",
         "imgs":"/ocri.png",
-        "date":"2023",
+        "date":"2024",
         "logo":"/",
 
-        "timeline":"Sept 2024 - April 2024",
-        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
-        "body1":"Integrated Authentication with Clerk",
-        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "timeline":"April 2024 - April 2024",
+        "tools":["Nextjs14","Figma","TailwindCSS","tesseract.js"],
+        "body1":"Integrated Optical Character recognition with Tesseract.js",
+        "body1sub":"OCR enable to convert the image to Text and we further filter it till number",
         "slugimg":"/vitclerk.png",
         "slugimg2":"/vitgram/slugsub.png",
-        "body2":"Created for the ViTians Clubs and Chapters",
-        "body2sub":"for the Vitians, by a Vitian",
+        "body2":"Possibility of helping many Winter Business Vendors",
+        "body2sub":"Save Time and need the minimum effort to understand",
         "linked":"https://capstone-vitgram-2-0.vercel.app/",
         "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
-        "subtitle":"A Social Media WebApp for VIT Students",
+        "subtitle":"An OCR based tool for Tibetan Winter Business Sellers",
         "deploy":true,
-        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
+        "para":"This tool is designed specifically forTibetanWinter Business Sellers, aiming to alleviate the cumbersome process of manual calculations from their books."
     },
     {
         "slug":"p3",
@@ -72,19 +72,19 @@
         "date":"2024",
         "logo":"/",
 
-        "timeline":"Sept 2024 - April 2024",
-        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
-        "body1":"Integrated Authentication with Clerk",
-        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "timeline":"Jan 2024 - Ongoing",
+        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS","Framer motion"],
+        "body1":"A personal Space in this Busy world",
+        "body1sub":"a note based webapp enabling to share what on your mind",
         "slugimg":"/vitclerk.png",
         "slugimg2":"/vitgram/slugsub.png",
-        "body2":"Created for the ViTians Clubs and Chapters",
-        "body2sub":"for the Vitians, by a Vitian",
+        "body2":"Privacy and Authentication with Manual",
+        "body2sub":"Only authorize person can view the diary",
         "linked":"https://capstone-vitgram-2-0.vercel.app/",
         "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
-        "subtitle":"A Social Media WebApp for VIT Students",
-        "deploy":true,
-        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
+        "subtitle":"A Digital Note to your younger self",
+        "deploy":false,
+        "para":"Introducing DearDiary, your personal sanctuary in the digital realm. Within its virtual pages, you're invited to pour out your thoughts, dreams, and reflections without inhibition"
     },
   
     {
@@ -95,42 +95,42 @@
         "date":"2023",
         "logo":"/",
 
-        "timeline":"Sept 2024 - April 2024",
-        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
-        "body1":"Integrated Authentication with Clerk",
-        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "timeline":"April 2023 - June 2023",
+        "tools":["HTML","CSS","JavaScript"],
+        "body1":"A Clone project for my College",
+        "body1sub":"This is a project made during my second year, took around 3 months to complete",
         "slugimg":"/vitclerk.png",
         "slugimg2":"/vitgram/slugsub.png",
-        "body2":"Created for the ViTians Clubs and Chapters",
+        "body2":"Created with plain HTML and CSS",
         "body2sub":"for the Vitians, by a Vitian",
         "linked":"https://capstone-vitgram-2-0.vercel.app/",
         "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
-        "subtitle":"A Social Media WebApp for VIT Students",
+        "subtitle":"A Clone of VTOP website",
         "deploy":true,
-        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
+        "para":"In a daily basis, every VIT student visits VIT website(vtop) at least twice a day. Whether it is for checking attendance or to upload their digital assessment. Vtop has become a lifestyle in one student life in VIT."
     },
    
     {
         "slug":"p6",
         "title":"Anime Web Portal",
-        "type":"Frontend Development",
+        "type":"Frontend Development|API",
         "imgs":"/an.png",
         "date":"2023",
         "logo":"/",
 
-        "timeline":"Sept 2024 - April 2024",
-        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
-        "body1":"Integrated Authentication with Clerk",
-        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "timeline":"Dec 2023 - Jan 2024",
+        "tools":["Nextjs14","TailwindCSS","API"],
+        "body1":"A learning of API CALL",
+        "body1sub":"Made this project to understand the working of API",
         "slugimg":"/vitclerk.png",
         "slugimg2":"/vitgram/slugsub.png",
-        "body2":"Created for the ViTians Clubs and Chapters",
-        "body2sub":"for the Vitians, by a Vitian",
+        "body2":"A Collection of Airing Anime",
+        "body2sub":"Description of many anime that are coming from api",
         "linked":"https://capstone-vitgram-2-0.vercel.app/",
         "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
-        "subtitle":"A Social Media WebApp for VIT Students",
-        "deploy":true,
-        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
+        "subtitle":"An Anime SearchBOOK",
+        "deploy":false,
+        "para":"Introducing AnimePortal, your one-stop destination for all things anime. With AnimePortal, immerse yourself in the thrilling world of Japanese animation as you explore the latest airing anime and their captivating descriptions"
     }
    
 ]

@@ -38,8 +38,8 @@ const Each = ({ params }) => {
                 selectedItem.deploy ? "bg-[#2EBE0A]" : "bg-[#ff4343]"
               } `}
             >
-             {selectedItem.deploy ? "Live" : "Only sourcecode"}
-            <BsArrowUpRight /> </div></a>  
+             {selectedItem.deploy ?<>Live<BsArrowUpRight /></> : "Only Source Code"}
+             </div></a>  
           </div>
           
           <div className=" md:mt-4 p-4 mt-2">
@@ -85,9 +85,9 @@ const Each = ({ params }) => {
       ) : (
         //if the slug are not found
         <div className=" flex flex-col items-center h-48 justify-center text-5xl font-bold">
-          PAGE NOT FOUND
+         DESIGN PAGE IS UNDER CONSTRUCTION
           <p className=" text-sm font-normal">
-            ONLY THE MATCH SLUG ARE ALLOWED
+            WILL BE LIVE AFTER JULY,2024
           </p>
         </div>
       )}

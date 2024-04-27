@@ -10,7 +10,7 @@ const ProjectCard = ({ date, type, title, imgs ,slugs}) => {
         className={`relative hidden md:flex h-44 rounded-sm w-56 `}
       >
         {/* for image */}
-      <Image src={imgs} alt="slugcard" fill />
+      <Image src={imgs} alt="slugcard" className=" z-10" fill />
       </div>
       <div className=" flex justify-between items-center">
         <p className=" text-sm font-semibold mt-2">{title}</p>
@@ -19,6 +19,7 @@ const ProjectCard = ({ date, type, title, imgs ,slugs}) => {
 
       <p className=" text-xs font-medium text-[#858585]">{type}</p>
     </div>
+
     </Link>
   );
 };

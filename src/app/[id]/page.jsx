@@ -15,15 +15,18 @@ const Each = ({ params }) => {
           <div className="relative h-56">
             <div className="absolute inset-0 overflow-hidden">
               <Image
+              className=" z-10"
                 alt="images for the cover"
                 src={selectedItem.imgs}
                 fill
                 objectFit="cover"
                 style={{ objectPosition: "center 20%" }}
               />
+                <div className="h-56 bg-[#999999] animate-pulse -z-10 "/>
             </div>
+            
           </div>
-          <div className="  md:h-20 md:w-20 h-14 w-14 rounded-xl absolute md:top-48 top-52 md:left-5 left-2">
+          <div className=" z-20  md:h-20 md:w-20 h-14 w-14 rounded-xl absolute md:top-48 top-52 md:left-5 left-2">
             <Image src={selectedItem.logo} alt="logo" fill />
           </div>
           <div className=" flex gap-4  justify-between items-center md:pl-28 pl-20 mt-2">

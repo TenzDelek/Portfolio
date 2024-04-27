@@ -15,6 +15,7 @@ const Projects = ({domains}) => {
         {data.map((item, index)=>
         <div  key={index}>
              <ProjectCard slugs={item.slug} title={item.title} date={item.date} type={item.type} imgs={item.imgs}/>
+            
         </div>
          
        )}

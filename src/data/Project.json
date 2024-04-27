@@ -1,41 +1,136 @@
 [
     {
+        "slug":"p1",
         "title":"VITgram",
-        "type":"FullStack Development",
+       "type":"FullStack Development",
         "imgs":"/vitgram.png",
-        "date":"2024"
+        "date":"2024",
+        "logo":"/logovit.png",
+        "timeline":"Sept 2023 - April 2024",
+        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
+        "body1":"Integrated Authentication with Clerk",
+        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "slugimg":"/vitclerk.png",
+        "slugimg2":"/vitgram/slugsub.png",
+        "body2":"Created for the ViTians Clubs and Chapters",
+        "body2sub":"for the Vitians, by a Vitian",
+        "linked":"https://capstone-vitgram-2-0.vercel.app/",
+        "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
+        "subtitle":"A Social Media WebApp for VIT Students",
+        "deploy":true,
+        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
     },
     {
+        "slug":"p2",
         "title":"SumIT",
         "type":"Frontend Development | OCR",
         "imgs":"/ocri.png",
-        "date":"2023"
+        "date":"2023",
+        "logo":"/",
+
+        "timeline":"Sept 2024 - April 2024",
+        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
+        "body1":"Integrated Authentication with Clerk",
+        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "slugimg":"/vitclerk.png",
+        "slugimg2":"/vitgram/slugsub.png",
+        "body2":"Created for the ViTians Clubs and Chapters",
+        "body2sub":"for the Vitians, by a Vitian",
+        "linked":"https://capstone-vitgram-2-0.vercel.app/",
+        "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
+        "subtitle":"A Social Media WebApp for VIT Students",
+        "deploy":true,
+        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
     },
     {
+        "slug":"p3",
         "title":"FindMyPrompt",
         "type":"FullStack Development",
         "imgs":"/pro.png",
-        "date":"2023"
+        "date":"2023",
+        "logo":"/",
+
+        "timeline":"June 2023 - Sept 2023",
+        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
+        "body1":"Integrated Backend Database with MongoDB",
+        "body1sub":"The backend storage for this project was covered by the MongoDB. ",
+        "slugimg":"/vitclerk.png",
+        "slugimg2":"/vitgram/slugsub.png",
+        "body2":"Searchable Prompt with the CRUD functionalities",
+        "body2sub":"prompts are created by the users",
+        "linked":"https://findmyprompt-pwkvmtzw5-deleksharp-gmailcom.vercel.app/",
+        "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
+        "subtitle":" A Crud based Fullstack Project",
+        "deploy":true,
+        "para":"FINDMYPROMPT addresses the inherent issue of generating insightful queries by providing users with a curated selection of related prompts."
     },
     {
+        "slug":"p4",
         "title":"DearDiary",
         "type":"FullStack Development",
         "imgs":"/dar.png",
-        "date":"2024"
+        "date":"2024",
+        "logo":"/",
+
+        "timeline":"Sept 2024 - April 2024",
+        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
+        "body1":"Integrated Authentication with Clerk",
+        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "slugimg":"/vitclerk.png",
+        "slugimg2":"/vitgram/slugsub.png",
+        "body2":"Created for the ViTians Clubs and Chapters",
+        "body2sub":"for the Vitians, by a Vitian",
+        "linked":"https://capstone-vitgram-2-0.vercel.app/",
+        "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
+        "subtitle":"A Social Media WebApp for VIT Students",
+        "deploy":true,
+        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
     },
   
     {
+        "slug":"p5",
         "title":"Vtop Clone",
         "type":"Frontend Development",
         "imgs":"/vcc.png",
-        "date":"2023"
+        "date":"2023",
+        "logo":"/",
+
+        "timeline":"Sept 2024 - April 2024",
+        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
+        "body1":"Integrated Authentication with Clerk",
+        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "slugimg":"/vitclerk.png",
+        "slugimg2":"/vitgram/slugsub.png",
+        "body2":"Created for the ViTians Clubs and Chapters",
+        "body2sub":"for the Vitians, by a Vitian",
+        "linked":"https://capstone-vitgram-2-0.vercel.app/",
+        "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
+        "subtitle":"A Social Media WebApp for VIT Students",
+        "deploy":true,
+        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
     },
    
     {
+        "slug":"p6",
         "title":"Anime Web Portal",
         "type":"Frontend Development",
         "imgs":"/an.png",
-        "date":"2023"
+        "date":"2023",
+        "logo":"/",
+
+        "timeline":"Sept 2024 - April 2024",
+        "tools":["Nextjs14","MongoDB","Figma","TailwindCSS"],
+        "body1":"Integrated Authentication with Clerk",
+        "body1sub":"This is a project made during my final year, took around 3 months to complete",
+        "slugimg":"/vitclerk.png",
+        "slugimg2":"/vitgram/slugsub.png",
+        "body2":"Created for the ViTians Clubs and Chapters",
+        "body2sub":"for the Vitians, by a Vitian",
+        "linked":"https://capstone-vitgram-2-0.vercel.app/",
+        "git":"https://github.com/TenzDelek/Capstone-VITGRAM2.0",
+        "subtitle":"A Social Media WebApp for VIT Students",
+        "deploy":true,
+        "para":"The web-based social network (VITgram) is a dynamic platform designed to connect individuals based on shared interests, fostering meaningful interactions and community engagement like clubs and chapters posting and idea sharing between peers to peers."
     }
    
 ]

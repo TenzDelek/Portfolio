@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-const ProjectCard = ({ date, type, title, imgs }) => {
+const ProjectCard = ({ date, type, title, imgs ,slugs}) => {
  
   return (
     <div className=" p-2 w-full md:hover:bg-[#1A1A1A] hover:bg-[#292929] transition">
@@ -8,7 +9,7 @@ const ProjectCard = ({ date, type, title, imgs }) => {
         className={`relative hidden md:flex h-44 rounded-sm w-56 `}
       >
         {/* for image */}
-        <Image src={imgs} fill />
+       <Link href={`/${slugs}`}><Image src={imgs} fill /></Link> 
       </div>
       <div className=" flex justify-between items-center">
         <p className=" text-sm font-semibold mt-2">{title}</p>

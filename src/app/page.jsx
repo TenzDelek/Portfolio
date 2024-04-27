@@ -26,18 +26,18 @@ export default function Home() {
         <Biocard/>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#1A1A1A]  transition-opacity duration-300 opacity-100"/>
       </div>
-      <div className=" w-full mt-10 p-2" >
+      <div className=" w-full mt-10 p-2" id="About" >
       <About/>
       <div className=" relative h-20 w-40">
         <Image src="/sign.png" fill draggable={false} />
       </div>
       </div>
      
-     <div className=" p-2 w-full" >
+     <div className=" p-2 w-full" id="Projects" >
       <Projects domains="Development"/>
       <Projects domains="Design"/>
      </div>
-     <div>
+     <div id="Others">
       <Tech/>
      </div>
      <div className=" w-full mt-10 p-2" >

@@ -5,19 +5,19 @@ import { FaRegCopyright } from "react-icons/fa";
 const handle = [
   {
     title: "LinkedIn",
-    link: "/",
+    link: "https://www.linkedin.com/in/tenzin-delek-8a157724b/",
   },
   {
     title: "GitHub",
-    link: "/",
+    link: "https://github.com/TenzDelek",
   },
   {
     title: "LeetCode",
-    link: "/",
+    link: "https://leetcode.com/u/TenzinDelek/",
   },
   {
-    title: "Resume",
-    link: "/",
+    title: "Medium",
+    link: "https://medium.com/@tibetdelek",
   },
 ];
 const Footer = () => {
@@ -32,7 +32,8 @@ const Footer = () => {
             <p className=" text-xs text-[#999999]">Socials</p>
             {handle.map((data) => (
               <div className="flex gap-2 text-sm" key={data.title}>
-                {data.title}
+              <a target="_blank" href={data.link}  rel="noopener noreferrer">{data.title}</a>
+               
                 <BsArrowUpRight />
               </div>
             ))}

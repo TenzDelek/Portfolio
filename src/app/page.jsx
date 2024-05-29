@@ -1,6 +1,7 @@
 'use client'
 import Biocard from "@/components/Card/Biocard";
 import Tech from "@/components/Card/Tech";
+import Creative from "@/components/Creative/Creative";
 import About from "@/components/Pages/About/About";
 import Blog from "@/components/Pages/Blog/Blog";
 import Projects from "@/components/Pages/Projects/Projects";
@@ -35,7 +36,11 @@ export default function Home() {
      
      <div className=" p-2 w-full" id="Projects" >
       <Projects domains="Development"/>
-      <Projects domains="Design"/>
+      {/* <Projects domains="Design"/> */}
+      <div className=" mt-4">
+      <Creative/>
+      </div>
+      
      </div>
      <div id="Others">
       <Tech/>

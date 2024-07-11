@@ -13,7 +13,7 @@ export const metadata = {
     description: 'Portfolio of Tenzin Delek for development and design',
     images: [
       {
-        url: '/opengraph-image.png',
+        url: 'https://tenzindelekportfolio.vercel.app/opengraph-image.png',
         width: 1200,
         height: 630,
         alt: 'PORTFOLIO 2024',

@@ -7,10 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Tenzin Delek",
   description: "Portfolio of Tenzin Delek for development and design",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
   openGraph: {
     title: 'Tenzin Delek Portfolio',
     description: 'Portfolio of Tenzin Delek for development and design',
+    url:'https://tenzindelekportfolio.vercel.app/',
+    siteName:'Tenzin Portfolio',
     images: [
       {
         url: 'https://tenzindelekportfolio.vercel.app/opengraph-image.png',

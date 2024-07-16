@@ -39,7 +39,9 @@ export default function Home() {
         <About />
         
       </div>
-
+      <div className=" w-full mt-10 p-2 " id="Others">
+        <Tech />
+      </div>
       <div className=" p-2 w-full" id="Projects">
         <Projects domains="Development" />
         {/* <Projects domains="Design"/> */}
@@ -47,9 +49,7 @@ export default function Home() {
           <Creative />
         </div>
       </div>
-      <div id="Others">
-        <Tech />
-      </div>
+      
       <div className=" w-full mt-10 p-2">
         <Blog />
       </div>

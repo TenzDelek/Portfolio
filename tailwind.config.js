@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        satoshi:['var(--font-satoshi)'],
+        satoshiregular:['var(--font-satoshiregular)'],
+        editorial:['var(--font-editorial)'],
+        editoriallight:[' var(--font-editoriallight)']
+      },
     },
   },
   plugins: [],

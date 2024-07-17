@@ -31,8 +31,8 @@ const Footer = () => {
           <div className=" items-end flex flex-col space-y-2">
             <p className=" text-xs text-[#999999]">Socials</p>
             {handle.map((data) => (
-              <div className="flex gap-2 text-sm" key={data.title}>
-              <a target="_blank" href={data.link}  rel="noopener noreferrer">{data.title}</a>
+              <div className="flex cursor-pointer  gap-2 text-sm" key={data.title}>
+              <a target="_blank" href={data.link} className=" hover:opacity-75 transition"  rel="noopener noreferrer">{data.title}</a>
                
                 <BsArrowUpRight />
               </div>

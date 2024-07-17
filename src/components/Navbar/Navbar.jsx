@@ -24,7 +24,7 @@ const Navbar = () => {
           </span>
 
           <p>
-            <a href="/resume.pdf" download>
+            <a href="/TenzinDelekResume.pdf" download>
               Resume
             </a>
           </p>

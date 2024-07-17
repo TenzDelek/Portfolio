@@ -18,7 +18,7 @@ const Links = () => {
   return (
     <div className=' space-x-10'>
         {lists.map((item)=>
-            <Link to={item.title} className=" cursor-pointer" smooth duration={500}  key={item.title}>{item.title}</Link>
+            <Link to={item.title} className=" cursor-pointer hover:opacity-75 transition" smooth duration={500}  key={item.title}>{item.title}</Link>
             )}
     </div>
   )

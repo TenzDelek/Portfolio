@@ -1,4 +1,5 @@
 import TextCard from "@/components/TextCard/TextCard";
+import Link from "next/link";
 import React from "react";
 
 const staticinfo = [

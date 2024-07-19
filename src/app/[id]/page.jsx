@@ -4,6 +4,7 @@ import Image from "next/image";
 import Slugcard from "@/components/Card/Slugcard";
 import { BsArrowUpRight } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 const Each = ({ params }) => {
   const { id } = params;
   const currentSlug = id;
@@ -33,17 +34,29 @@ const Each = ({ params }) => {
             <p className=" md:text-lg md:font-semibold text-sm font-semibold">
               {selectedItem.title}:{selectedItem.subtitle}
             </p>
-            <a target="_blank" href={selectedItem.git} rel="noopener noreferrer" className=" text-xl">
-            <FaGithub />
-            </a>
-            <a target="_blank" href={selectedItem.linked}  rel="noopener noreferrer">
+            <Link
+                  className="group hover:opacity-75 transition"
+                  href={selectedItem.git}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </Link>
+           
+                <Link
+                  className="group hover:opacity-75 transition"
+                  href={selectedItem.linked}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                 
             <div
               className={` flex hover:cursor-pointer items-center gap-x-2 px-4 py-1 md:text-sm text-xs font-bold rounded-lg ${
                 selectedItem.deploy ? "bg-[#2EBE0A]" : "bg-[#ff4343]"
               } `}
             >
              {selectedItem.deploy ?<>Live<BsArrowUpRight /></> : "Only Source Code"}
-             </div></a>  
+             </div> </Link>
           </div>
           
           <div className=" md:mt-4 p-4 mt-2">

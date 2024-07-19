@@ -23,6 +23,14 @@ export const metadata = {
     ],
   },
 };
+
+const overused= localfont({
+  src:[{
+    path:"../../public/fonts/OverusedGrotesk-VF.woff2",
+    weight:"800"
+  }],
+  variable:"--font-overused"
+})
 const satoshilight= localfont({
   src:[{
     path:"../../public/fonts/Satoshi-Regular.ttf",
@@ -54,7 +62,7 @@ const ppeditoriallight= localfont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}>
+      <body className={`${inter.className} ${overused.variable} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}>
         <div className="lg:w-[900px] md:w-[520px] w-[380px] m-auto  px-2  flex flex-col justify-between">
         <Navbar/>
         {children}

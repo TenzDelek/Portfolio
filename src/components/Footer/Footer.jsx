@@ -1,7 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-import { BsArrowUpRight } from "react-icons/bs";
+
 import { FaRegCopyright } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
 const handle = [
   {
     title: "LinkedIn",
@@ -21,6 +23,38 @@ const handle = [
   },
 ];
 const Footer = () => {
+  const links = [
+    {
+      id: 1,
+      href: "/about",
+      label: "About",
+    },
+    {
+      id: 2,
+      href: "https://forms.gle/PftXkai3sNZquWu68",
+      label: "Add a resource",
+    },
+    {
+      id: 3,
+      href: "https://forms.gle/s84TNQcUX1P22bTE7",
+      label: "Submit feedback",
+    },
+    {
+      id: 4,
+      href: "https://ko-fi.com/supporthuyng",
+      label: "Support this project",
+    },
+    {
+      id: 5,
+      href: "https://github.com/huyngxyz/Pillarstack",
+      label: "Contribute on Github",
+    },
+    {
+      id: 6,
+      href: "/legal",
+      label: "Legal",
+    },
+  ];
   return (
     <>
       <div className=" flex justify-between items-center h-64">
@@ -31,10 +65,20 @@ const Footer = () => {
           <div className=" items-end flex flex-col space-y-2">
             <p className=" text-xs text-[#999999]">Socials</p>
             {handle.map((data) => (
-              <div className="flex cursor-pointer  gap-2 text-sm" key={data.title}>
-              <a target="_blank" href={data.link} className=" hover:opacity-75 transition"  rel="noopener noreferrer">{data.title}</a>
-               
-                <BsArrowUpRight />
+              <div className="flex cursor-pointer group  gap-2 text-sm" key={data.title}>
+              
+              <Link
+                  className="group hover:opacity-75 transition"
+                  href={data.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {data.title}
+                  </Link>
+              <span className="relative overflow-hidden h-fit w-fit">
+                <GoArrowUpRight className="group-hover:-translate-y-5 group-hover:translate-x-5 duration-500 transition-transform ease-in-out-circ fill-light-gray stroke-[0.2]" />
+                <GoArrowUpRight className="absolute top-0 group-hover:translate-x-0 duration-500 group-hover:translate-y-0 transition-all ease-in-out-circ translate-y-5 -translate-x-5 fill-light-gray stroke-[0.2]" />
+              </span>
               </div>
             ))}
           </div>

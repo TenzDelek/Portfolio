@@ -5,7 +5,7 @@ import bgg from '../../../public/bgg.png'
 const Biocard = () => {
     const nums=[2,4,1,0,2,0,0,2,'-',6,5]
   return (
-    <div className='  bg-[#292929] flex w-full h-full rounded-xl'>
+    <div className='   bg-[#292929] flex w-full h-full rounded-xl'>
       <Image src={bgg} priority quality={100}  placeholder='blur' fill draggable="false" alt='profile' />
         <div className=' flex-1  md:flex lg:items-center max-lg:mt-7 hidden justify-center '>
             <div className='relative lg:h-[180px] lg:w-[160px] md:h-[160px]  md:w-[140px]'>

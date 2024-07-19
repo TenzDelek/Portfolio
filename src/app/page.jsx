@@ -47,10 +47,11 @@ export default function Home() {
         Product{" "}
         Developer
       </p>
+      {/* <video autoPlay loop playsInline  muted className=" mx-auto" height={170} width={170} poster="/an.png" src="/birthday.mp4"></video> */}
       <p className=" text-[#858585]">A Tibetan Based in India</p>
       <div className=" relative mt-4 lg:w-[500px] lg:h-[280px] md:w-[400px] md:h-[250px] w-[300px] h-[230px]">
         <Biocard />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#1A1A1A]  transition-opacity duration-300 opacity-100" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#080808]  transition-opacity duration-300 opacity-100" />
       </div>
       <div className=" w-full mt-10 p-2 " id="About">
         <About />

@@ -2,14 +2,27 @@
 import Biocard from "@/components/Card/Biocard";
 import Tech from "@/components/Card/Tech";
 import Creative from "@/components/Creative/Creative";
+import Preloader from "@/components/Creative/Preloader";
 import About from "@/components/Pages/About/About";
 import Blog from "@/components/Pages/Blog/Blog";
 import Projects from "@/components/Pages/Projects/Projects";
 import Lenis from "@studio-freight/lenis";
+import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 export default function Home() {
- 
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect( () => {
+    (
+      async () => {
+          setTimeout( () => {
+            setIsLoading(false);
+            document.body.style.cursor = 'default'
+            window.scrollTo(0,0);
+          }, 2000)
+      }
+    )()
+  }, [])
   useEffect(() => {
     const lenis = new Lenis();
     function raf(time) {
@@ -19,8 +32,12 @@ export default function Home() {
     requestAnimationFrame(raf);
   }, []);
   return (
-    <div className="flex flex-col  items-center mt-12">
-      <p className=" font-satoshi lg:text-5xl md:text-4xl text-3xl">
+    <div>
+      <AnimatePresence mode='wait'>
+        {isLoading && <Preloader />}
+      </AnimatePresence>
+    <div className="flex flex-col px-7  items-center mt-12">
+      <p className=" font-satoshi  lg:text-5xl md:text-4xl text-3xl">
         Tenzin Delek
       </p>
       <p className="  font-satoshi lg:text-5xl md:text-4xl text-2xl">
@@ -53,6 +70,7 @@ export default function Home() {
       <div className=" w-full mt-10 p-2">
         <Blog />
       </div>
+    </div>
     </div>
   );
 }

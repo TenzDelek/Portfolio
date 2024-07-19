@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} ${overused.variable} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}>
-        <div className="lg:w-[900px] md:w-[520px] w-[380px] m-auto  px-2  flex flex-col justify-between">
+        <div className=" m-auto  flex flex-col justify-between">
         <Navbar/>
         {children}
         <Footer/>

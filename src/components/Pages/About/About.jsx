@@ -1,11 +1,46 @@
-
-import React from "react";
+'use client'
+import React, { useRef } from "react";
+import { useInView, motion } from 'framer-motion';
 import { BsArrowUpRight } from "react-icons/bs";
+export const slideUp = {
+  initial: {
+      y: "100%"
+  },
+  open: (i) => ({
+      y: "0%",
+      transition: {duration: 0.5, delay: 0.01 * i}
+  }),
+  closed: {
+      y: "100%",
+      transition: {duration: 0.5}
+  }
+}
+
+export const opacity = {
+  initial: {
+      opacity: 0
+  },
+  open: {
+      opacity: 1,
+      transition: {duration: 0.5}
+  },
+  closed: {
+      opacity: 0,
+      transition: {duration: 0.5}
+  }
+}
 const About = () => {
+  const phrase ="I Develop & Design Frontend/Backend"
+  const description = useRef(null);
+  const isInView = useInView(description,{ once: true })
   return (
-    <div className=" lg:w-[600px] mx-auto text-center  px-2 ">
-      <p className=" text-4xl  font-editoriallight pb-5">
-        I Develop & Design Frontend/Backend
+    <div ref={description} className=" lg:w-[600px] mx-auto text-center  px-2 ">
+      <p className=" text-4xl  space-x-4 font-editoriallight pb-5">
+      {
+                    phrase.split(" ").map( (word, index) => {
+                        return <span key={index} className=" relative  inline-flex overflow-hidden"><motion.span variants={slideUp} custom={index} animate={isInView ? "open" : "closed"} key={index}>{word} </motion.span></span>
+                    })
+                }
       </p>
       <div className=" font-light text-justify text-[13px] opacity-60 max-md:text-sm gap-4 flex max-md:flex-col">
         <p className=" flex-1 ">

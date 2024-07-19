@@ -5,35 +5,23 @@ import Footer from "@/components/Footer/Footer";
 import localfont from 'next/font/local'
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata = {
-//   title: "Tenzin Delek",
-//   description: "Portfolio of Tenzin Delek for development and design",
-//   // openGraph: {
-//   //   title: 'Tenzin Delek Portfolio',
-//   //   description: 'Portfolio of Tenzin Delek for development and design',
-//   //   url:'https://tenzindelekportfolio.vercel.app/',
-//   //   siteName:'Tenzin Portfolio',
-//   //   images: [
-//   //     {
-//   //       url: 'https://tenzindelekportfolio.vercel.app/opengraph-image.png',
-//   //       width: 1200,
-//   //       height: 630,
-//   //       alt: 'PORTFOLIO 2024',
-//   //     },
-//   //   ],
-//   // },
-// };
 export const metadata = {
-  metadataBase: new URL("https://tenzindelekportfolio.vercel.app/"),
-  alternates: {
-    canonical: "/",
-    languages: {
-      "en-US": "/en-US",
-    },
+  title: "Tenzin Delek",
+  description: "Portfolio of Tenzin Delek for development and design",
+  openGraph: {
+    title: 'Tenzin Delek Portfolio',
+    description: 'Portfolio of Tenzin Delek for development and design',
+    url:'https://tenzindelekportfolio.vercel.app/',
+    siteName:'Tenzin Portfolio',
+    images: [
+      {
+        url: 'https://tenzindelekportfolio.vercel.app/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'PORTFOLIO 2024',
+      },
+    ],
   },
-  title: "Tenzin Delek's Portfolio",
-  description:
-    "A Developer portfolio",
 };
 const satoshilight= localfont({
   src:[{

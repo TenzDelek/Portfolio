@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import localfont from 'next/font/local'
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -62,6 +63,19 @@ const ppeditoriallight= localfont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+<Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GANALYTIC}`}></Script>
+<Script id="google-analytics">
+  {
+ ` window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WWYNXLK6SX');`
+  }
+
+</Script>
+      </head>
       <body className={`${inter.className} ${overused.variable} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}>
         <div className=" m-auto  flex flex-col justify-between">
         <Navbar/>

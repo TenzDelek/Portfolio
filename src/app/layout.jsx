@@ -3,8 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import localfont from "next/font/local";
-import Script from "next/script";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -74,33 +73,6 @@ const ppeditoriallight = localfont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <head>
-<Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GANALYTIC}`}></Script>
-<Script id="google-analytics">
-  {
- ` window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WWYNXLK6SX');`
-  }
-
-</Script>
-      </head> */}
-      <head>
-        <Script
-        id="gtm"
-        strategy="afterInteractive"
-         dangerouslySetInnerHTML={{
-          __html:`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5MJ2SH7S');`
-        }}>
-        
-        </Script>
-      </head>
       <body
         className={`${inter.className} ${overused.variable} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}
       >
@@ -109,7 +81,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           {children}
           <Footer />
         </div>
-        <GoogleTagManager gtmId="GTM-5MJ2SH7S" />
+        <GoogleAnalytics gaId="G-MPFX2PC51R" />
       </body>
     </html>
   );

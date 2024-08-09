@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="h-24 px-5 flex justify-between mt-2 text-sm font-medium items-center">
-        <div className=" relative w-16 h-10 cursor-pointer blur-sm hover:blur-none transition ">
+        <div className=" relative w-16 h-10 cursor-pointer ">
           <Link href="/">
             {" "}
             <Image src="/logo.png" alt="nav image" fill />

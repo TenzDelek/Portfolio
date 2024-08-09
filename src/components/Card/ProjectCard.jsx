@@ -7,10 +7,11 @@ const ProjectCard = ({ date, type, title, imgs ,slugs}) => {
     <Link href={`/${slugs}`}>
     <div className=" p-2 w-full md:hover:bg-[#1A1A1A] hover:bg-[#292929] transition">
       <div
-        className={`relative hidden md:flex h-44 rounded-sm w-56 `}
+        className={`relative hidden md:flex h-72 w-96 rounded-sm  `}
       >
         {/* for image */}
-      <Image src={imgs} alt="slugcard" className=" z-10" fill />
+      <Image src={imgs} alt="slugcard" priority draggable={false}
+              quality={100} className=" z-10" fill />
       </div>
       <div className=" flex justify-between items-center">
         <p className=" text-sm font-semibold mt-2">{title}</p>

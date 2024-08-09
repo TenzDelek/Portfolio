@@ -3,7 +3,7 @@ import React from 'react'
 const loading = () => {
   return (
    <>
-    <div className="rounded-md p-4 w-full bg-[#272727] animate-pulse h-52 mx-auto">
+    <div className="rounded-md p-4 lg:w-[560px] md:w-[480px] m-auto bg-[#272727] animate-pulse h-52 mx-auto">
     <div className="animate-pulse flex space-x-4"/>
         </div>
 <div className="rounded-md p-4 w-full mx-auto">

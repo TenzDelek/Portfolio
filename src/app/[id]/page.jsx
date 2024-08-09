@@ -1,16 +1,29 @@
+'use client'
 import React from "react";
 import devdatas from "@/data/Project.json";
 import Image from "next/image";
 import Slugcard from "@/components/Card/Slugcard";
-import { BsArrowUpRight } from "react-icons/bs";
+
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
+import { GoArrowUpRight } from "react-icons/go";
+import { IoArrowBackCircleOutline } from "react-icons/io5";
+import { useRouter } from "next/navigation";
+
+
 const Each = ({ params }) => {
+  const router=useRouter()
+  const redirecthome=()=>{
+   router.push("/")
+  }
   const { id } = params;
   const currentSlug = id;
   const selectedItem = devdatas.find((item) => item.slug === currentSlug);
   return (
-    <div>
+    <div className=" relative lg:w-[560px] md:w-[480px] m-auto bg-[#121212] ">
+      <div onClick={redirecthome} className=" cursor-pointer absolute  text-xl  bg-green-500 text-white rounded-full p-2 animate-pulse top-4 z-50 left-4">
+        <IoArrowBackCircleOutline/>
+      </div>
       {selectedItem ? (
         <div className="relative">
           <div className="relative h-56">
@@ -51,11 +64,14 @@ const Each = ({ params }) => {
                 >
                  
             <div
-              className={` flex hover:cursor-pointer items-center gap-x-2 px-4 py-1 md:text-sm text-xs font-bold rounded-lg ${
+              className={` flex hover:cursor-pointer items-center gap-x-2 px-2 py-1 mr-2 md:text-sm text-xs font-semibold rounded-lg ${
                 selectedItem.deploy ? "bg-[#2EBE0A]" : "bg-[#ff4343]"
               } `}
             >
-             {selectedItem.deploy ?<>Live<BsArrowUpRight /></> : "Only Source Code"}
+             {selectedItem.deploy ?<>Live <span className="relative overflow-hidden h-fit w-fit">
+                <GoArrowUpRight className="group-hover:-translate-y-5 group-hover:translate-x-5 duration-500 transition-transform ease-in-out-circ fill-light-gray stroke-[0.2]" />
+                <GoArrowUpRight className="absolute top-0 group-hover:translate-x-0 duration-500 group-hover:translate-y-0 transition-all ease-in-out-circ translate-y-5 -translate-x-5 fill-light-gray stroke-[0.2]" />
+              </span></> : "Code"}
              </div> </Link>
           </div>
           

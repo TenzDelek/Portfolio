@@ -3,26 +3,14 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import localfont from "next/font/local";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://tenzindelekportfolio.vercel.app"),
   title: "Tenzin Delek",
   description: "Portfolio of Tenzin Delek for development and design",
-  openGraph: {
-    title: "Tenzin Delek Portfolio",
-    description: "Portfolio of Tenzin Delek for development and design",
-    url: "https://tenzindelekportfolio.vercel.app/",
-    siteName: "Tenzin Portfolio",
-    images: [
-      {
-        url: "https://tenzindelekportfolio.vercel.app/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "PORTFOLIO 2024",
-      },
-    ],
-  },
+  
 };
 
 const overused = localfont({
@@ -81,7 +69,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </div>
-        <GoogleAnalytics gaId="G-MPFX2PC51R" />
+        <Analytics />
       </body>
     </html>
   );

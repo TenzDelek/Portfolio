@@ -23,7 +23,7 @@ const Links = () => {
             smooth
             duration={500}
             to={item.title}
-            className="font-satoshi  sm:block relative flex overflow-hidden group h-fit text-base "
+            className=" font-applefont1  sm:block relative flex overflow-hidden group h-fit text-base "
             href="/about"
           >
             <span className="flex group-hover:-translate-y-5 group-hover:opacity-0 transition-all ease-in-out-circ duration-500">

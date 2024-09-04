@@ -6,7 +6,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div>
-      <div className="h-24 px-5 flex justify-between mt-2 text-sm font-medium items-center">
+      <div className="h-24 px-5 flex justify-between mt-2 text-sm  font-applefont1 items-center">
         <div className=" relative w-16 h-10 cursor-pointer ">
           <Link href="/">
             {" "}

@@ -58,11 +58,20 @@ const ppeditoriallight = localfont({
   ],
   variable: "--font-editoriallight",
 });
+const applefont1 = localfont({
+  src: [
+    {
+      path: "../../public/fonts/sf-pro-display_semibold.woff2",
+      weight: "500",
+    },
+  ],
+  variable: "--font-applefont1",
+});
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${overused.variable} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}
+        className={`${inter.className} ${applefont1.variable} ${overused.variable} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}
       >
         <div className=" m-auto  flex flex-col justify-between">
           <Navbar />

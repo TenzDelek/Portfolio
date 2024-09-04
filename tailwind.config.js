@@ -12,7 +12,8 @@ module.exports = {
         satoshiregular:['var(--font-satoshiregular)'],
         editorial:['var(--font-editorial)'],
         editoriallight:[' var(--font-editoriallight)'],
-        overused:['var(--font-overused)']
+        overused:['var(--font-overused)'],
+        applefont1:['var(--font-applefont1)'],
       },
     },
   },

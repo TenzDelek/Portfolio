@@ -59,20 +59,20 @@ export default function Home() {
         <About />
         
       </div>
-      <div className=" w-full mt-10 p-2 " id="Others">
+      {/* <div className=" w-full mt-10 p-2 " id="Others">
         <Tech />
-      </div>
+      </div> */}
       <div className=" p-2 w-full" id="Projects">
         <Projects domains="Development" />
         {/* <Projects domains="Design"/> */}
-        <div className=" mt-4">
+        {/* <div className=" mt-4">
           <Creative />
-        </div>
+        </div> */}
       </div>
       
-      <div className=" w-full mt-10 p-2">
+      {/* <div className=" w-full mt-10 p-2">
         <Blog />
-      </div>
+      </div> */}
     </div>
     </div>
   );

@@ -67,16 +67,36 @@ const applefont1 = localfont({
   ],
   variable: "--font-applefont1",
 });
+const mainfont=localfont({
+  src: [
+    {
+      path: "../../public/fonts/ABCMonumentGrotesk-Regular-Trial.otf",
+      weight: "100",
+    },
+  ],
+  variable: "--font-mainfont",
+})
+const mediummainfont=localfont({
+  src: [
+    {
+      path: "../../public/fonts/ABCMonumentGrotesk-Medium-Trial.otf",
+      weight: "400",
+    },
+  ],
+  variable: "--font-mediummainfont",
+})
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${applefont1.variable} ${overused.variable} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}
+        className={`${inter.className} ${mediummainfont.variable} ${mainfont.variable} ${applefont1.variable} ${overused.variable} ${ppeditoriallight.variable} ${ppeditorial.variable} ${satoshi.variable} ${satoshilight.variable}`}
       >
-        <div className=" m-auto  flex flex-col justify-between">
-          <Navbar />
+        <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+        <div className=" m-auto   flex flex-col justify-between">
+          {/* <Navbar /> */}
           {children}
-          <Footer />
+          {/* <Footer /> */}
+        </div>
         </div>
         <Analytics />
       </body>

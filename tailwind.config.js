@@ -14,6 +14,9 @@ module.exports = {
         editoriallight:[' var(--font-editoriallight)'],
         overused:['var(--font-overused)'],
         applefont1:['var(--font-applefont1)'],
+        mainfont:['var(--font-mainfont)'],
+        mediummainfont:['var(--font-mediummainfont)'],
+        
       },
     },
   },

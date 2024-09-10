@@ -14,23 +14,15 @@ extend({ MeshLineGeometry, MeshLineMaterial })
 export default function App() {
 
   return (
-    <div className="w-full h-screen">
-      <div className="flex flex-col items-center text-white absolute top-40 left-1/2 -translate-x-1/2">
-        <p className="font-applefont1 text-7xl tracking-tighter">
-          Tenzin Portfolio
-        </p>
-        <h5>Developer and Designer from Tibet</h5>
-        <p className="opacity-70 text-xs w-3/4 text-center">
-          My Name is Tenzin Delek, A Tibetan Living in India. Love to build stuffs
-          and design. A Generalist with a passion for creating. 
-        </p>
-      </div>
+    <div className=" z-10  bg-transparent absolute ml-48 md:ml-32 w-96  ">
+
     
     <Canvas camera={{ position: [0, 0, 13], fov: 25 }}>
       <ambientLight intensity={Math.PI} />
       <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
         <Band />
       </Physics>
+      
       <Environment >
         <color attach="background" args={['black']} />
         <Lightformer intensity={2} color="white" position={[0, -1, 5]} rotation={[0, 0, Math.PI / 3]} scale={[100, 0.1, 1]} />

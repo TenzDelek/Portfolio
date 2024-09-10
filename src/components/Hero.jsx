@@ -14,7 +14,7 @@ extend({ MeshLineGeometry, MeshLineMaterial })
 export default function App() {
 
   return (
-    <div className=" z-10  bg-transparent absolute ml-48 md:ml-32 w-96  ">
+    <div className=" z-10  bg-transparent absolute w-96  ">
 
     
     <Canvas camera={{ position: [0, 0, 13], fov: 25 }}>

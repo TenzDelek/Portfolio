@@ -46,7 +46,7 @@ const Group = () => {
             {item.link && (
               <Link
                 className="cursor-pointer group flex items-center"
-                href={item.link}
+                href={item.link} target="_blank"
               >
                 <p>Live</p>
                 <span className="relative overflow-hidden h-fit w-fit text-yellow-500">
@@ -58,7 +58,7 @@ const Group = () => {
 
             <Link
               className="cursor-pointer group flex items-center"
-              href={item.code}
+              href={item.code} target="_blank"
             >
               <p>Code</p>
               <span className="relative overflow-hidden h-fit w-fit text-yellow-500">

@@ -40,15 +40,21 @@ const Home = () => {
           </span>
         </div>
         <Group/>
+        <div>
+        </div>
+      </div>
+      <div>
+       
       </div>
     </div>
       <div className="flex-1 text-sm text-end">
-      <div className="flex md:block gap-x-3 font-mainfont md:px-20 px-10 md:mt-20 mt-10">
+      <div className="flex flex-col max-sm:items-center max-sm:justify-center  font-mainfont md:px-20 px-10 md:mt-20 mt-10">
         <p>© 2024 Tenzin Delek</p>
+        <div className="flex gap-x-3 md:block">
         {
           links.map((item,index)=>(
             <Link
-            className="  text-sm  sm:block relative flex overflow-hidden group h-fit  "
+            className=" text-sm  sm:block relative  overflow-hidden group h-fit  "
           href={item.link} key={index}target="_blank"
           >
             <span className="flex flex-col group-hover:-translate-y-5 group-hover:opacity-0 transition-all ease-in-out-circ duration-500">
@@ -60,6 +66,8 @@ const Home = () => {
           </Link>
           ))
         }
+        </div>
+      
 
         </div>
         

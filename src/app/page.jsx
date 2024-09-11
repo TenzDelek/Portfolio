@@ -33,7 +33,7 @@ const Home = () => {
             Developing and Designing website that inspires.
             <br />A learner, A Believer and A Pushover
           </div>
-          <div className="group w-fit cursor-zoom-out  flex items-center gap-x-1 mt-5 text-[#797979]">
+          <div className="group w-fit flex items-center gap-x-1 mt-5 text-[#797979]">
             <p className="font-mediummainfont">Projects</p>
             <span className="relative overflow-hidden h-fit w-fit">
               <GoArrowUpRight className="group-hover:-translate-y-5 group-hover:translate-x-5 duration-500 transition-transform ease-in-out-circ fill-light-gray stroke-[0.2]" />

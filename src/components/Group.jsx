@@ -37,9 +37,11 @@ const Group = () => {
           className="flex flex-col  max-w-96 items-center mt-4 gap-x-1"
         >
           <p className="font-mainfont">
-            <span className="font-extrabold border-b border-[#B3FC03]">
+          {item.link && (
+            <Link href={item.link} target="_blank" className="font-extrabold border-b border-[#B3FC03]">
               {item.title}
-            </span>{" "}
+            </Link>)}
+            {!item.link && <span className="font-extrabold w-fit border-b border-[#B3FC03]">{item.title}</span>}{" "}
             {item.desc}
           </p>
           <div className="flex text-[#797979] gap-x-4 mt-2 items-start w-full">
